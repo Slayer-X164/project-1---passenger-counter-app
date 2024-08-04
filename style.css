@@ -1,0 +1,52 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    box-shadow: black 8px 9px 0px;
+    /* border-radius: 5px; */
+    border: 2px solid grey;
+    width: 300px;
+    height: 450px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(225, 245, 255);
+}
+.box h1{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.box #count-el{
+    font-size: 3.5rem;
+}
+.box button{
+    /* padding: 5px 30px; */
+    background-color: rgb(244, 74, 74);
+    
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button #btn-text{
+    width: 120px;
+    
+}
+#save-btn{
+    width: 100px;
+    padding: 5px;
+    margin-top: 25px;
+    font-size: 1.5rem;
+    background-color: rgb(2, 170, 2);
+    color: white;
+}
+#save-el{
+    font-weight: bold;
+    font-size: 1.3rem;
+}
